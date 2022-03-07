@@ -22,3 +22,4 @@ class Solution(object):
             if m in d:
                 return [d[m],i]
             d[n] = i
+            # hashmap 多val对一key的性质满足nums 查第2个值的需求
