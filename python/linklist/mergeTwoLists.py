@@ -55,4 +55,5 @@ class Solution(object):
             tail = tail.next
         tail.next = list1 or list2
         return dummy.next
+    # dummy 头指针 
     
