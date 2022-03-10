@@ -32,5 +32,5 @@ class Solution(object):
         # return new_head        
         
         # ---
-        # base choice --> 分解为头节点和后面的两个节点.
+        # base condition --> 分解为头节点和后面的两个节点.
         # 然后从最后面的这三个节点递归到最前面
