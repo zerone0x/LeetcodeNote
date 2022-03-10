@@ -24,3 +24,5 @@ class Solution:
         # 通过判断当前三个数的和与0的大小关系，来移动指针。
         # 当duplicate时候，就continue跳过。
         # 分两个地方: 1. 刚开始遍历。 2. sum为0时的重新开始
+        
+        # ps: duplicate 问题可以用set来解决。
