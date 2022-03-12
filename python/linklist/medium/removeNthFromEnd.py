@@ -16,6 +16,6 @@ class Solution:
         Left.next = Left.next.next
         # delete the node
         return dummy.next
-    如果用指针来解决，那不变的是两个指针的距离。
-    所以问题就要在刚开始把距离控制好。
+    # 如果用指针来解决，那不变的是两个指针的距离。
+    # 所以问题就要在刚开始把距离控制好。
     
