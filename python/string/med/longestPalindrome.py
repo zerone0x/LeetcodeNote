@@ -19,3 +19,4 @@ class Solution:
                 reslen = r - l - 1
                 res = s[l + 1: r]
         return res
+# middle - left right compare        
