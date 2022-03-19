@@ -22,3 +22,7 @@ class Solution:
         #     else:
         #         r = m
         # return nums[l]
+#         binary search 
+# 用res作cache 加速
+# 每次都要留下最小值
+# 迭代
