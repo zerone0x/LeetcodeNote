@@ -25,9 +25,6 @@ class Solution:
                         (r,c) not in visit):
                         q.append((r,c))
                         visit.add((r,c))
-                        
-                            
-            
         for r in range(rows):
             for c in range(cols):
                 if (r,c) not in visit and grid[r][c] == "1":
@@ -35,6 +32,6 @@ class Solution:
                     island +=1
         return island
     
-        # 典型的bfs问题
+        # bfs --> 
         # 遍历每一个单元，如果没有被访问过，并且是1，bfs一下，再加一。
         
