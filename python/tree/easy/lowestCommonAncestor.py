@@ -17,3 +17,7 @@ class Solution:
             else:
                 return cur
                 
+#             分3情况
+# 1. one bigger than root, one smaller than root. root
+# 2. two bigger --> right
+# 3. two smaller --> left
