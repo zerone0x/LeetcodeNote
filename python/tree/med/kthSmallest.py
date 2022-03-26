@@ -32,12 +32,12 @@ class Solution:
         self.help(root)
         return self.res
         
-        def help(self, node):
-            if not node:
-                return 
-            self.help(node.left)
-            self.k -= 1
-            if self.k == 0:
-                self.res = node.val
-                return 
-            self.help(node.right)
+    def help(self, node):
+        if not node:
+            return 
+        self.help(node.left)
+        self.k -= 1
+        if self.k == 0:
+            self.res = node.val
+            return 
+        self.help(node.right)
