@@ -4,7 +4,6 @@
 #         self.val = val
 #         self.left = left
 #         self.right = right
-import queue
 
 
 class Solution:
@@ -24,9 +23,9 @@ class Solution:
             if level:
                 res.append(level)
         return res
-                
-        数据结构 queue
-        结果 list
-        输入 root
-        遍历队列 队列分层结果list，输出第一个节点，放到level里。
+        # 数据结构 queue
+        # 结果 list
+        # 输入 root
+        # 队列分层结果list
+        # 遍历队列 ，输出第一个节点，放到level里。
         
