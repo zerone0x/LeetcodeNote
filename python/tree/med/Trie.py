@@ -12,7 +12,7 @@ class Trie:
         cur = self.root
         for i in word:
             if i not in cur.children:
-                self.children[i] = TrieNode()
+                cur.children[i] = TrieNode()
             cur = cur.children[i]
         cur.endofWord = True
             
@@ -22,7 +22,7 @@ class Trie:
         for i in word:
             if i not in cur.children:
                 return False
-            cur = self.children[i]
+            cur = cur.children[i]
         return cur.endofWord
 
 
@@ -31,7 +31,7 @@ class Trie:
         for i in prefix:
             if i not in cur.children:
                 return False
-            cur = self.children[i]
+            cur = cur.children[i]
         return True
 
 
