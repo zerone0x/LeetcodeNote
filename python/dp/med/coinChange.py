@@ -14,3 +14,4 @@ class Solution:
         return dp[amount] if dp[amount] != amount+1 else -1
         
         # 遍历amount从0到最大值，每个值分解为所有的coin，如果不是-1，那就每次取它记录，遍历所有得到最小值。
+        # 如果最后dp的值不等于初始化的值，那就返回dp。否则-1.
